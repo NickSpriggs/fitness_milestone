@@ -6,25 +6,41 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container w-100">
-        <div class="row justify-content-center text-center">
-            <div class="col-4" style="height: 230px; background-color: forestgreen;">Exercise</div>
-            <div class="col-4" style="height: 230px; background-color: rgb(146, 6, 6);">Eat</div>
-            <div class="col-4" style="height: 230px; background-color: rgb(175, 135, 2);">Educate</div>
+    <div class="container-fluid" style="padding: 80px 0px 0px 0px;">
+        <div class="row justify-content-center text-center" style="height: 250px;">
+            <div class="col-md-4" style="background-color: rgb(146, 6, 6);">
+                Exercise
+            </div>
+            <div class="col-md-4" style="background-color: forestgreen;">
+                Eat
+            </div>
+            <div class="col-md-4" style="background-color: rgb(175, 135, 2);">
+                Educate
+            </div>
         </div>
         <div class="row justify-content-center text-center">
-            <h2>Welcome!</h2>                
+            <h3>Welcome!</h3>                
         </div>
-        <div class="row text-center">
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
-            id est laborum.
-            </p>                
+        <div class="row justify-content-center text-center p-0">
+            <div class="col-10">
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+                id est laborum.
+                </p>                   
+            </div>     
         </div>
         <div class="row justify-content-center">
-            <a href="" class="btn btn-primary btn-lg btn-block blue">Join (Membership just $5 a month!)</a>
+            <div class="col-8 py-1">
+                <a href="" class="btn btn-primary btn-lg btn-block green">Join Free!</a>    
+            </div>  
+            <div class="col-8 py-1">
+                <a href="" class="btn btn-primary btn-lg btn-block blue">Premium ($5/Month!)</a>    
+            </div> 
+            <div class="col-8 text-center py-3">
+                <p>Already a member? Login <a href="">here</a></p>                 
+            </div>
         </div>
     </div>
 {% endblock %}
