@@ -2,26 +2,29 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
+
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    The New collections are here
-                </h1>
-                <div class="my-5">
-                    <h1>
-                        <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Login</a>
-                    </h1>
-                </div>
-            </div>
+    <div class="container w-100">
+        <div class="row justify-content-center text-center">
+            <div class="col-4" style="height: 230px; background-color: forestgreen;">Exercise</div>
+            <div class="col-4" style="height: 230px; background-color: rgb(146, 6, 6);">Eat</div>
+            <div class="col-4" style="height: 230px; background-color: rgb(175, 135, 2);">Educate</div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <h2>Welcome!</h2>                
+        </div>
+        <div class="row text-center">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim 
+            id est laborum.
+            </p>                
+        </div>
+        <div class="row justify-content-center">
+            <a href="" class="btn btn-primary btn-lg btn-block blue">Join (Membership just $5 a month!)</a>
         </div>
     </div>
 {% endblock %}
