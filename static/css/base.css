@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+.eColumn {
+    padding-top: 50px;
+    color: white; 
+    font-size: 50px
+}
+
+.iconRow {
+    height: 250px;
+}
+
+.iconCol-y {
+    background-color: rgb(228, 177, 9);
+}
+
+.iconCol-r {
+    background-color: rgb(146, 6, 6);
+}
+
+.iconCol-b {
+    background-color: rgb(15, 4, 163);
+}
+
+@media screen and (max-width: 767px) {
+  .iconRow {
+    height: 70px;
+  }
+  .eColumn {
+    padding-top: 20px;
+    color: white; 
+    font-size: 20px
+  }
+  .welcomeRow {
+    padding-top: 185px;
+  }
+  .introFont {
+    font-size: 13px;
+  }
+  
+}
